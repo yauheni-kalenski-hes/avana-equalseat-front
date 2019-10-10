@@ -5,7 +5,7 @@ build:
     envTemplate:
       template: '{{.DOCKER_REGISTRY}}/{{.IMAGE_NAME}}:{{.VERSION}}'
   artifacts:
-  - image: eighth-duality-249814/avana-equalseat-front
+  - image: avana-test/avana-equalseat-front
     context: .
     docker: {}
   local: {}
